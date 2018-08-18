@@ -1,0 +1,47 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    animation-name: move;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    width: 100%;
+    height: 100%;
+    font-family: 'Bangers', cursive;
+}
+
+.answer-letters {
+    border: solid;
+    border-width: 1px;
+    border-color: #cecece;
+    background-color: #dfe0e1;
+    font-size: 36px;
+}
+
+.correct-letters, .incorrect-letters {
+    border: solid;
+    border-width: 1px;
+    border-color: #cecece;
+    background-color: #ffffff;
+    letter-spacing: 3px;
+}
+
+.correct-header, .incorrect-header{
+    border: solid;
+    border-width: 1px;
+    border-color: #cecece;
+    background-color: #ffffff
+}
+
+img {
+    max-height: 30em;
+}
+
+@keyframes move {
+    0%, 100% {
+        background-position: top;
+    }
+    50% {
+        background-position: bottom;
+    }
+}

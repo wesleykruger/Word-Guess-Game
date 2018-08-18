@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Infinity War Hangman</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid text-center">
+        <h1 class="display-4">Avengers Hangman</h1>
+        <p class="lead">Use your keyboard to find the hero we need before Thanos kills everyone!</p>
+    </div>
+
+    <div class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <img src="assets/images/hangmanImages/1.PNG" alt="hangman" class="hangmanImage">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 mt-3 text-center">
+                    <div class="alert">
+                        <!--Alert goes here-->
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <!--Empty column-->
+                </div>
+                <div class="col-6 text-center answer-letters">
+                    <!--Letters will go here-->
+                </div>
+                <div class="col-3">
+                    <!--Empty column-->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-0 col-lg-3">
+                    <!--Empty column-->
+                </div>
+                <div class="col-xs-6 col-lg-3 text-center correct-header">
+                    <h3>Correct</h3>
+                </div>
+                <div class="col-xs-6 col-lg-3 text-center incorrect-header">
+                    <h3>Incorrect</h3>
+                </div>
+                <div class="col-xs-0 col-lg-3">
+                    <!--Empty column-->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-0 col-lg-3">
+                    <!--Empty column-->
+                </div>
+                <div class="col-xs-6 col-lg-3 text-center correct-letters">
+                    <!--Correct letters go here-->
+                </div>
+                <div class="col-xs-6 col-lg-3 text-center incorrect-letters">
+                    <!--Incorrect letters go here-->
+                </div>
+                <div class="col-xs-0 col-lg-3">
+                    <!--Empty column-->
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <button class="btn btn-primary btn-lg mt-3 reset-button">
+                    Reset
+                </button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
