@@ -220,14 +220,8 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         document.querySelector(".answer-letters").innerText = gameAnswer.join("");
         document.querySelector(".incorrect-letters").innerText = [];
-        let incorDiv = document.createElement("h3");
-        incorDiv.innerText = "Incorrect";
-        document.querySelector(".incorrect-letters").appendChild(incorDiv);
 
         document.querySelector(".correct-letters").innerText = [];
-        let corDiv = document.createElement("h3");
-        corDiv.innerText = "Correct";
-        document.querySelector(".correct-letters").appendChild(corDiv);
 
         image.src = "assets/images/hangmanImages/1.PNG";
         document.getElementsByTagName("img")[0].setAttribute("src", image.src);
